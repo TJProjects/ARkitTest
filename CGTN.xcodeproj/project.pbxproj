@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D302D8252293EF5800165D75 /* TJAVplayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D302D81E2293EF5800165D75 /* TJAVplayerView.m */; };
+		D302D8262293EF5800165D75 /* TJAVPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D302D8202293EF5800165D75 /* TJAVPlayerControlView.m */; };
+		D302D82A2293F86300165D75 /* ARFirstLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D302D8292293F86300165D75 /* ARFirstLoadView.m */; };
+		D318211622A67FD300BAD4DE /* 小飞机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D318211522A67FD300BAD4DE /* 小飞机@3x.png */; };
+		D32B431522C4CE4A006B9C6C /* ARCheckVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B431422C4CE4A006B9C6C /* ARCheckVIew.m */; };
+		D33449C922962FB7009592F5 /* ARFunctionTips.m in Sources */ = {isa = PBXBuildFile; fileRef = D33449C822962FB7009592F5 /* ARFunctionTips.m */; };
+		D33449CE22967259009592F5 /* ARScanPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33449CD22967259009592F5 /* ARScanPromptView.m */; };
+		D33449D2229694B8009592F5 /* 进度条-渐变@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449D0229694B8009592F5 /* 进度条-渐变@3x.png */; };
+		D33449D4229694C0009592F5 /* ar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449D3229694C0009592F5 /* ar@3x.png */; };
+		D33449D922969564009592F5 /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449D722969564009592F5 /* play@3x.png */; };
+		D33449DA22969564009592F5 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449D822969564009592F5 /* pause@3x.png */; };
+		D33449E222969577009592F5 /* 拍摄按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449DE22969577009592F5 /* 拍摄按钮@3x.png */; };
+		D33449E52296958A009592F5 /* 箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449E32296958A009592F5 /* 箭头@3x.png */; };
+		D33449E62296958A009592F5 /* 遮罩@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449E42296958A009592F5 /* 遮罩@3x.png */; };
+		D33449E922969595009592F5 /* 下拉菜单@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449E722969595009592F5 /* 下拉菜单@3x.png */; };
+		D33449EA22969595009592F5 /* 上拉菜单@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449E822969595009592F5 /* 上拉菜单@3x.png */; };
+		D33449EF229695AB009592F5 /* 下载按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449EC229695AB009592F5 /* 下载按钮@3x.png */; };
+		D33449F0229695AB009592F5 /* 分享按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33449ED229695AB009592F5 /* 分享按钮@3x.png */; };
+		D360699322A7B400002BFB80 /* 声音按钮-关闭@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D360699122A7B3FF002BFB80 /* 声音按钮-关闭@3x.png */; };
+		D360699422A7B400002BFB80 /* 声音按钮-开启@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D360699222A7B400002BFB80 /* 声音按钮-开启@3x.png */; };
+		D360699722A7B418002BFB80 /* 专访视频入口-按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D360699522A7B417002BFB80 /* 专访视频入口-按钮@3x.png */; };
+		D360699822A7B418002BFB80 /* 数据入口-按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D360699622A7B418002BFB80 /* 数据入口-按钮@3x.png */; };
+		D360699B22A8EC0F002BFB80 /* ARAboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D360699A22A8EC0F002BFB80 /* ARAboutView.m */; };
+		D37082B022B9E247003FCBC3 /* 遮罩-下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37082AE22B9E247003FCBC3 /* 遮罩-下@3x.png */; };
+		D37082B122B9E247003FCBC3 /* 遮罩-上@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37082AF22B9E247003FCBC3 /* 遮罩-上@3x.png */; };
+		D37793AE22A10DEB0054CD79 /* GSDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D37793AC22A10DE50054CD79 /* GSDownloader.m */; };
+		D37793AF22A10DEB0054CD79 /* GSDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D37793AD22A10DEB0054CD79 /* GSDownloadManager.m */; };
+		D37793C822A10E290054CD79 /* libSSZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D37793B122A10E290054CD79 /* libSSZip.a */; };
+		D37793C922A10E290054CD79 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D37793B522A10E290054CD79 /* unzip.c */; };
+		D37793CA22A10E290054CD79 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D37793B722A10E290054CD79 /* zip.c */; };
+		D37793CB22A10E290054CD79 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = D37793B822A10E290054CD79 /* ioapi.c */; };
+		D37F425922B336B800D8AB2A /* ARAirportLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D37F425822B336B800D8AB2A /* ARAirportLabelView.m */; };
+		D37FC24B22ADF8D20088C8DE /* MontserratAlternates-Black-11.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23922ADF8D10088C8DE /* MontserratAlternates-Black-11.otf */; };
+		D37FC24C22ADF8D20088C8DE /* MontserratAlternates-SemiBold-18.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23A22ADF8D10088C8DE /* MontserratAlternates-SemiBold-18.otf */; };
+		D37FC24D22ADF8D20088C8DE /* Montserrat-ExtraLight-5.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23B22ADF8D10088C8DE /* Montserrat-ExtraLight-5.otf */; };
+		D37FC24E22ADF8D20088C8DE /* MontserratAlternates-Regular-17.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23C22ADF8D10088C8DE /* MontserratAlternates-Regular-17.otf */; };
+		D37FC24F22ADF8D20088C8DE /* Montserrat-Light-6.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23D22ADF8D10088C8DE /* Montserrat-Light-6.otf */; };
+		D37FC25022ADF8D20088C8DE /* MontserratAlternates-ExtraLight-14.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23E22ADF8D10088C8DE /* MontserratAlternates-ExtraLight-14.otf */; };
+		D37FC25122ADF8D20088C8DE /* Montserrat-Bold-3.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC23F22ADF8D10088C8DE /* Montserrat-Bold-3.otf */; };
+		D37FC25222ADF8D20088C8DE /* Montserrat-SemiBold-9.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24022ADF8D10088C8DE /* Montserrat-SemiBold-9.otf */; };
+		D37FC25322ADF8D20088C8DE /* MontserratAlternates-Light-15.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24122ADF8D20088C8DE /* MontserratAlternates-Light-15.otf */; };
+		D37FC25422ADF8D20088C8DE /* MontserratAlternates-Bold-12.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24222ADF8D20088C8DE /* MontserratAlternates-Bold-12.otf */; };
+		D37FC25522ADF8D20088C8DE /* MontserratAlternates-Thin-19.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24322ADF8D20088C8DE /* MontserratAlternates-Thin-19.otf */; };
+		D37FC25622ADF8D20088C8DE /* Montserrat-Medium-7.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24422ADF8D20088C8DE /* Montserrat-Medium-7.otf */; };
+		D37FC25722ADF8D20088C8DE /* MontserratAlternates-Medium-16.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24522ADF8D20088C8DE /* MontserratAlternates-Medium-16.otf */; };
+		D37FC25822ADF8D20088C8DE /* Montserrat-Black-2.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24622ADF8D20088C8DE /* Montserrat-Black-2.otf */; };
+		D37FC25922ADF8D20088C8DE /* MontserratAlternates-ExtraBold-13.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24722ADF8D20088C8DE /* MontserratAlternates-ExtraBold-13.otf */; };
+		D37FC25A22ADF8D20088C8DE /* Montserrat-Regular-8.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24822ADF8D20088C8DE /* Montserrat-Regular-8.otf */; };
+		D37FC25B22ADF8D20088C8DE /* Montserrat-ExtraBold-4.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24922ADF8D20088C8DE /* Montserrat-ExtraBold-4.otf */; };
+		D37FC25C22ADF8D20088C8DE /* Montserrat-Thin-10.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37FC24A22ADF8D20088C8DE /* Montserrat-Thin-10.otf */; };
+		D386547E22B743620078B2DB /* 机票水印@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D386547D22B743620078B2DB /* 机票水印@3x.png */; };
+		D386548122B7852D0078B2DB /* ARToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = D386548022B7852D0078B2DB /* ARToastView.m */; };
+		D3A0AB8E22BB28BF006C78EF /* 数据入口-按钮-高亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A0AB8C22BB28BF006C78EF /* 数据入口-按钮-高亮@3x.png */; };
+		D3A0AB8F22BB28BF006C78EF /* 专访视频入口-按钮-高亮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A0AB8D22BB28BF006C78EF /* 专访视频入口-按钮-高亮@3x.png */; };
+		D3A0AB9522BB327F006C78EF /* 高亮光晕@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A0AB9422BB327F006C78EF /* 高亮光晕@3x.png */; };
+		D3AFE5A922A4A9B60052035A /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AFE5A822A4A9B60052035A /* 返回@3x.png */; };
+		D3B265D722AFAE12006478D5 /* 分享@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B265D622AFAE12006478D5 /* 分享@3x.png */; };
+		D3C8B5A3229B7E9D006039C3 /* ARAudioPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8B5A2229B7E9D006039C3 /* ARAudioPlayerView.m */; };
+		D3C8B5A6229BBD2A006039C3 /* ARScanBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8B5A5229BBD2A006039C3 /* ARScanBottomView.m */; };
+		D3CB875222BCD85700166FC7 /* Group@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB875022BCD85700166FC7 /* Group@3x.png */; };
+		D3CB875322BCD85700166FC7 /* CGTN_LOGO_RGB@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB875122BCD85700166FC7 /* CGTN_LOGO_RGB@3x.png */; };
+		D3CB875522BCDE8300166FC7 /* UNNETTEXT@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB875422BCDE8300166FC7 /* UNNETTEXT@3x.png */; };
+		D3D310A3228C0AE200132EA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D310A2228C0AE200132EA9 /* AppDelegate.m */; };
+		D3D310A6228C0AE200132EA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D310A5228C0AE200132EA9 /* ViewController.m */; };
+		D3D310A9228C0AE200132EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D310A7228C0AE200132EA9 /* Main.storyboard */; };
+		D3D310AB228C0AE300132EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D310AA228C0AE300132EA9 /* Assets.xcassets */; };
+		D3D310AE228C0AE300132EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D310AC228C0AE300132EA9 /* LaunchScreen.storyboard */; };
+		D3D310B1228C0AE300132EA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D310B0228C0AE300132EA9 /* main.m */; };
+		D3D310BD228CF4E800132EA9 /* ARkitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D310BC228CF4E800132EA9 /* ARkitViewController.m */; };
+		D3D310C0228CF51B00132EA9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D310BF228CF51B00132EA9 /* ARKit.framework */; };
+		D3D310C2228CF53300132EA9 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D310C1228CF53300132EA9 /* SceneKit.framework */; };
+		D3DE805F22C0BB3900598BF6 /* ARModel.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DE805E22C0BB3900598BF6 /* ARModel.scnassets */; };
+		D3F1927122BCD66B004C0D1A /* ARNetErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1927022BCD66B004C0D1A /* ARNetErrorView.m */; };
+		D3FD54BC229CCDE20079FE35 /* ARWatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54BB229CCDE20079FE35 /* ARWatermarkView.m */; };
+		D3FD54BF229D0DD60079FE35 /* ARWatermarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54BE229D0DD60079FE35 /* ARWatermarkTableViewCell.m */; };
+		D3FD54CA229D37150079FE35 /* ARWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54C9229D37150079FE35 /* ARWaterMark.m */; };
+		D3FD54CD229E88980079FE35 /* ARScanBottomPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54CC229E88980079FE35 /* ARScanBottomPromptView.m */; };
+		D3FD54D3229FA7B50079FE35 /* ARLabelSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54D2229FA7B50079FE35 /* ARLabelSelectView.m */; };
+		D3FD54D5229FA9C20079FE35 /* next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FD54D4229FA9C20079FE35 /* next@3x.png */; };
+		D3FD54D8229FB9AE0079FE35 /* ARPanoramaballTips.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54D7229FB9AE0079FE35 /* ARPanoramaballTips.m */; };
+		D3FD54DB229FCF790079FE35 /* ARWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD54DA229FCF790079FE35 /* ARWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D302D81E2293EF5800165D75 /* TJAVplayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJAVplayerView.m; sourceTree = "<group>"; };
+		D302D81F2293EF5800165D75 /* TJAVPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJAVPlayerControlView.h; sourceTree = "<group>"; };
+		D302D8202293EF5800165D75 /* TJAVPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJAVPlayerControlView.m; sourceTree = "<group>"; };
+		D302D8212293EF5800165D75 /* TJAVplayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJAVplayerView.h; sourceTree = "<group>"; };
+		D302D8282293F86300165D75 /* ARFirstLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFirstLoadView.h; sourceTree = "<group>"; };
+		D302D8292293F86300165D75 /* ARFirstLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFirstLoadView.m; sourceTree = "<group>"; };
+		D318211522A67FD300BAD4DE /* 小飞机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小飞机@3x.png"; sourceTree = "<group>"; };
+		D32B431322C4CE4A006B9C6C /* ARCheckVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCheckVIew.h; sourceTree = "<group>"; };
+		D32B431422C4CE4A006B9C6C /* ARCheckVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCheckVIew.m; sourceTree = "<group>"; };
+		D33449C722962FB7009592F5 /* ARFunctionTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFunctionTips.h; sourceTree = "<group>"; };
+		D33449C822962FB7009592F5 /* ARFunctionTips.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFunctionTips.m; sourceTree = "<group>"; };
+		D33449CC22967259009592F5 /* ARScanPromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARScanPromptView.h; sourceTree = "<group>"; };
+		D33449CD22967259009592F5 /* ARScanPromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARScanPromptView.m; sourceTree = "<group>"; };
+		D33449D0229694B8009592F5 /* 进度条-渐变@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进度条-渐变@3x.png"; sourceTree = "<group>"; };
+		D33449D3229694C0009592F5 /* ar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ar@3x.png"; sourceTree = "<group>"; };
+		D33449D722969564009592F5 /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
+		D33449D822969564009592F5 /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+		D33449DE22969577009592F5 /* 拍摄按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍摄按钮@3x.png"; sourceTree = "<group>"; };
+		D33449E32296958A009592F5 /* 箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@3x.png"; sourceTree = "<group>"; };
+		D33449E42296958A009592F5 /* 遮罩@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遮罩@3x.png"; sourceTree = "<group>"; };
+		D33449E722969595009592F5 /* 下拉菜单@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉菜单@3x.png"; sourceTree = "<group>"; };
+		D33449E822969595009592F5 /* 上拉菜单@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上拉菜单@3x.png"; sourceTree = "<group>"; };
+		D33449EC229695AB009592F5 /* 下载按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载按钮@3x.png"; sourceTree = "<group>"; };
+		D33449ED229695AB009592F5 /* 分享按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享按钮@3x.png"; sourceTree = "<group>"; };
+		D353D6AA2295305500C3E6AA /* TJDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJDefine.h; sourceTree = "<group>"; };
+		D360699122A7B3FF002BFB80 /* 声音按钮-关闭@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "声音按钮-关闭@3x.png"; sourceTree = "<group>"; };
+		D360699222A7B400002BFB80 /* 声音按钮-开启@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "声音按钮-开启@3x.png"; sourceTree = "<group>"; };
+		D360699522A7B417002BFB80 /* 专访视频入口-按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专访视频入口-按钮@3x.png"; sourceTree = "<group>"; };
+		D360699622A7B418002BFB80 /* 数据入口-按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "数据入口-按钮@3x.png"; sourceTree = "<group>"; };
+		D360699922A8EC0F002BFB80 /* ARAboutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAboutView.h; sourceTree = "<group>"; };
+		D360699A22A8EC0F002BFB80 /* ARAboutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAboutView.m; sourceTree = "<group>"; };
+		D37082AE22B9E247003FCBC3 /* 遮罩-下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遮罩-下@3x.png"; sourceTree = "<group>"; };
+		D37082AF22B9E247003FCBC3 /* 遮罩-上@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "遮罩-上@3x.png"; sourceTree = "<group>"; };
+		D37793AA22A10DDA0054CD79 /* GSDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDownloadManager.h; sourceTree = "<group>"; };
+		D37793AB22A10DDF0054CD79 /* GSDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDownloader.h; sourceTree = "<group>"; };
+		D37793AC22A10DE50054CD79 /* GSDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDownloader.m; sourceTree = "<group>"; };
+		D37793AD22A10DEB0054CD79 /* GSDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDownloadManager.m; sourceTree = "<group>"; };
+		D37793B122A10E290054CD79 /* libSSZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSSZip.a; sourceTree = "<group>"; };
+		D37793B322A10E290054CD79 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		D37793B422A10E290054CD79 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		D37793B522A10E290054CD79 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		D37793B622A10E290054CD79 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		D37793B722A10E290054CD79 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		D37793B822A10E290054CD79 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		D37793B922A10E290054CD79 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		D37793BA22A10E290054CD79 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		D37793BB22A10E290054CD79 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		D37793BC22A10E290054CD79 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		D37793BD22A10E290054CD79 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		D37793BE22A10E290054CD79 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		D37793BF22A10E290054CD79 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		D37793C022A10E290054CD79 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		D37793C122A10E290054CD79 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		D37793C222A10E290054CD79 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		D37793C322A10E290054CD79 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		D37793C422A10E290054CD79 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		D37793C522A10E290054CD79 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		D37793C622A10E290054CD79 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		D37793C722A10E290054CD79 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		D37F425722B336B800D8AB2A /* ARAirportLabelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAirportLabelView.h; sourceTree = "<group>"; };
+		D37F425822B336B800D8AB2A /* ARAirportLabelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAirportLabelView.m; sourceTree = "<group>"; };
+		D37FC23922ADF8D10088C8DE /* MontserratAlternates-Black-11.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black-11.otf"; sourceTree = "<group>"; };
+		D37FC23A22ADF8D10088C8DE /* MontserratAlternates-SemiBold-18.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold-18.otf"; sourceTree = "<group>"; };
+		D37FC23B22ADF8D10088C8DE /* Montserrat-ExtraLight-5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight-5.otf"; sourceTree = "<group>"; };
+		D37FC23C22ADF8D10088C8DE /* MontserratAlternates-Regular-17.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular-17.otf"; sourceTree = "<group>"; };
+		D37FC23D22ADF8D10088C8DE /* Montserrat-Light-6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light-6.otf"; sourceTree = "<group>"; };
+		D37FC23E22ADF8D10088C8DE /* MontserratAlternates-ExtraLight-14.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight-14.otf"; sourceTree = "<group>"; };
+		D37FC23F22ADF8D10088C8DE /* Montserrat-Bold-3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold-3.otf"; sourceTree = "<group>"; };
+		D37FC24022ADF8D10088C8DE /* Montserrat-SemiBold-9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold-9.otf"; sourceTree = "<group>"; };
+		D37FC24122ADF8D20088C8DE /* MontserratAlternates-Light-15.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light-15.otf"; sourceTree = "<group>"; };
+		D37FC24222ADF8D20088C8DE /* MontserratAlternates-Bold-12.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold-12.otf"; sourceTree = "<group>"; };
+		D37FC24322ADF8D20088C8DE /* MontserratAlternates-Thin-19.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin-19.otf"; sourceTree = "<group>"; };
+		D37FC24422ADF8D20088C8DE /* Montserrat-Medium-7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium-7.otf"; sourceTree = "<group>"; };
+		D37FC24522ADF8D20088C8DE /* MontserratAlternates-Medium-16.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium-16.otf"; sourceTree = "<group>"; };
+		D37FC24622ADF8D20088C8DE /* Montserrat-Black-2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black-2.otf"; sourceTree = "<group>"; };
+		D37FC24722ADF8D20088C8DE /* MontserratAlternates-ExtraBold-13.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold-13.otf"; sourceTree = "<group>"; };
+		D37FC24822ADF8D20088C8DE /* Montserrat-Regular-8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular-8.otf"; sourceTree = "<group>"; };
+		D37FC24922ADF8D20088C8DE /* Montserrat-ExtraBold-4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold-4.otf"; sourceTree = "<group>"; };
+		D37FC24A22ADF8D20088C8DE /* Montserrat-Thin-10.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin-10.otf"; sourceTree = "<group>"; };
+		D386547D22B743620078B2DB /* 机票水印@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "机票水印@3x.png"; sourceTree = "<group>"; };
+		D386547F22B7852D0078B2DB /* ARToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARToastView.h; sourceTree = "<group>"; };
+		D386548022B7852D0078B2DB /* ARToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARToastView.m; sourceTree = "<group>"; };
+		D3A0AB8C22BB28BF006C78EF /* 数据入口-按钮-高亮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "数据入口-按钮-高亮@3x.png"; sourceTree = "<group>"; };
+		D3A0AB8D22BB28BF006C78EF /* 专访视频入口-按钮-高亮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专访视频入口-按钮-高亮@3x.png"; sourceTree = "<group>"; };
+		D3A0AB9422BB327F006C78EF /* 高亮光晕@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高亮光晕@3x.png"; sourceTree = "<group>"; };
+		D3AFE5A822A4A9B60052035A /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
+		D3B265D622AFAE12006478D5 /* 分享@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享@3x.png"; sourceTree = "<group>"; };
+		D3C8B5A1229B7E9D006039C3 /* ARAudioPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAudioPlayerView.h; sourceTree = "<group>"; };
+		D3C8B5A2229B7E9D006039C3 /* ARAudioPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAudioPlayerView.m; sourceTree = "<group>"; };
+		D3C8B5A4229BBD2A006039C3 /* ARScanBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARScanBottomView.h; sourceTree = "<group>"; };
+		D3C8B5A5229BBD2A006039C3 /* ARScanBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARScanBottomView.m; sourceTree = "<group>"; };
+		D3CB875022BCD85700166FC7 /* Group@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group@3x.png"; sourceTree = "<group>"; };
+		D3CB875122BCD85700166FC7 /* CGTN_LOGO_RGB@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CGTN_LOGO_RGB@3x.png"; sourceTree = "<group>"; };
+		D3CB875422BCDE8300166FC7 /* UNNETTEXT@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UNNETTEXT@3x.png"; sourceTree = "<group>"; };
+		D3D3109E228C0AE200132EA9 /* CGTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D310A1228C0AE200132EA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3D310A2228C0AE200132EA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3D310A4228C0AE200132EA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3D310A5228C0AE200132EA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3D310A8228C0AE200132EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D310AA228C0AE300132EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D310AD228C0AE300132EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D310AF228C0AE300132EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D310B0228C0AE300132EA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D310BB228CF4E800132EA9 /* ARkitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARkitViewController.h; sourceTree = "<group>"; };
+		D3D310BC228CF4E800132EA9 /* ARkitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARkitViewController.m; sourceTree = "<group>"; };
+		D3D310BF228CF51B00132EA9 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		D3D310C1228CF53300132EA9 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		D3DE805E22C0BB3900598BF6 /* ARModel.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARModel.scnassets; sourceTree = "<group>"; };
+		D3F1926F22BCD66B004C0D1A /* ARNetErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNetErrorView.h; sourceTree = "<group>"; };
+		D3F1927022BCD66B004C0D1A /* ARNetErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNetErrorView.m; sourceTree = "<group>"; };
+		D3FD54BA229CCDE20079FE35 /* ARWatermarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARWatermarkView.h; sourceTree = "<group>"; };
+		D3FD54BB229CCDE20079FE35 /* ARWatermarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWatermarkView.m; sourceTree = "<group>"; };
+		D3FD54BD229D0DD60079FE35 /* ARWatermarkTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARWatermarkTableViewCell.h; sourceTree = "<group>"; };
+		D3FD54BE229D0DD60079FE35 /* ARWatermarkTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWatermarkTableViewCell.m; sourceTree = "<group>"; };
+		D3FD54C8229D37150079FE35 /* ARWaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARWaterMark.h; sourceTree = "<group>"; };
+		D3FD54C9229D37150079FE35 /* ARWaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWaterMark.m; sourceTree = "<group>"; };
+		D3FD54CB229E88980079FE35 /* ARScanBottomPromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARScanBottomPromptView.h; sourceTree = "<group>"; };
+		D3FD54CC229E88980079FE35 /* ARScanBottomPromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARScanBottomPromptView.m; sourceTree = "<group>"; };
+		D3FD54D1229FA7B50079FE35 /* ARLabelSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLabelSelectView.h; sourceTree = "<group>"; };
+		D3FD54D2229FA7B50079FE35 /* ARLabelSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLabelSelectView.m; sourceTree = "<group>"; };
+		D3FD54D4229FA9C20079FE35 /* next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@3x.png"; sourceTree = "<group>"; };
+		D3FD54D6229FB9AE0079FE35 /* ARPanoramaballTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPanoramaballTips.h; sourceTree = "<group>"; };
+		D3FD54D7229FB9AE0079FE35 /* ARPanoramaballTips.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPanoramaballTips.m; sourceTree = "<group>"; };
+		D3FD54D9229FCF790079FE35 /* ARWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARWebView.h; sourceTree = "<group>"; };
+		D3FD54DA229FCF790079FE35 /* ARWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D3109B228C0AE200132EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D310C2228CF53300132EA9 /* SceneKit.framework in Frameworks */,
+				D37793C822A10E290054CD79 /* libSSZip.a in Frameworks */,
+				D3D310C0228CF51B00132EA9 /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D302D8192293EF5800165D75 /* TJAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D302D8212293EF5800165D75 /* TJAVplayerView.h */,
+				D302D81E2293EF5800165D75 /* TJAVplayerView.m */,
+				D302D81F2293EF5800165D75 /* TJAVPlayerControlView.h */,
+				D302D8202293EF5800165D75 /* TJAVPlayerControlView.m */,
+			);
+			path = TJAVPlayer;
+			sourceTree = "<group>";
+		};
+		D302D8272293F82B00165D75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D32B431322C4CE4A006B9C6C /* ARCheckVIew.h */,
+				D32B431422C4CE4A006B9C6C /* ARCheckVIew.m */,
+				D302D8282293F86300165D75 /* ARFirstLoadView.h */,
+				D302D8292293F86300165D75 /* ARFirstLoadView.m */,
+				D33449C722962FB7009592F5 /* ARFunctionTips.h */,
+				D33449C822962FB7009592F5 /* ARFunctionTips.m */,
+				D33449CC22967259009592F5 /* ARScanPromptView.h */,
+				D33449CD22967259009592F5 /* ARScanPromptView.m */,
+				D3C8B5A1229B7E9D006039C3 /* ARAudioPlayerView.h */,
+				D3C8B5A2229B7E9D006039C3 /* ARAudioPlayerView.m */,
+				D3C8B5A4229BBD2A006039C3 /* ARScanBottomView.h */,
+				D3C8B5A5229BBD2A006039C3 /* ARScanBottomView.m */,
+				D3FD54CB229E88980079FE35 /* ARScanBottomPromptView.h */,
+				D3FD54CC229E88980079FE35 /* ARScanBottomPromptView.m */,
+				D3FD54BA229CCDE20079FE35 /* ARWatermarkView.h */,
+				D3FD54BB229CCDE20079FE35 /* ARWatermarkView.m */,
+				D3FD54BD229D0DD60079FE35 /* ARWatermarkTableViewCell.h */,
+				D3FD54BE229D0DD60079FE35 /* ARWatermarkTableViewCell.m */,
+				D3FD54C8229D37150079FE35 /* ARWaterMark.h */,
+				D3FD54C9229D37150079FE35 /* ARWaterMark.m */,
+				D3FD54D1229FA7B50079FE35 /* ARLabelSelectView.h */,
+				D3FD54D2229FA7B50079FE35 /* ARLabelSelectView.m */,
+				D3FD54D6229FB9AE0079FE35 /* ARPanoramaballTips.h */,
+				D3FD54D7229FB9AE0079FE35 /* ARPanoramaballTips.m */,
+				D360699922A8EC0F002BFB80 /* ARAboutView.h */,
+				D360699A22A8EC0F002BFB80 /* ARAboutView.m */,
+				D37F425722B336B800D8AB2A /* ARAirportLabelView.h */,
+				D37F425822B336B800D8AB2A /* ARAirportLabelView.m */,
+				D386547F22B7852D0078B2DB /* ARToastView.h */,
+				D386548022B7852D0078B2DB /* ARToastView.m */,
+				D3F1926F22BCD66B004C0D1A /* ARNetErrorView.h */,
+				D3F1927022BCD66B004C0D1A /* ARNetErrorView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D318210E22A64A5000BAD4DE /* arImageResouse */ = {
+			isa = PBXGroup;
+			children = (
+				D3CB875122BCD85700166FC7 /* CGTN_LOGO_RGB@3x.png */,
+				D3CB875022BCD85700166FC7 /* Group@3x.png */,
+				D3CB875422BCDE8300166FC7 /* UNNETTEXT@3x.png */,
+				D3A0AB9422BB327F006C78EF /* 高亮光晕@3x.png */,
+				D37082AF22B9E247003FCBC3 /* 遮罩-上@3x.png */,
+				D37082AE22B9E247003FCBC3 /* 遮罩-下@3x.png */,
+				D3B265D622AFAE12006478D5 /* 分享@3x.png */,
+				D360699622A7B418002BFB80 /* 数据入口-按钮@3x.png */,
+				D3A0AB8C22BB28BF006C78EF /* 数据入口-按钮-高亮@3x.png */,
+				D3A0AB8D22BB28BF006C78EF /* 专访视频入口-按钮-高亮@3x.png */,
+				D360699522A7B417002BFB80 /* 专访视频入口-按钮@3x.png */,
+				D360699122A7B3FF002BFB80 /* 声音按钮-关闭@3x.png */,
+				D360699222A7B400002BFB80 /* 声音按钮-开启@3x.png */,
+				D318211522A67FD300BAD4DE /* 小飞机@3x.png */,
+				D3AFE5A822A4A9B60052035A /* 返回@3x.png */,
+				D33449D0229694B8009592F5 /* 进度条-渐变@3x.png */,
+				D33449D3229694C0009592F5 /* ar@3x.png */,
+				D33449DE22969577009592F5 /* 拍摄按钮@3x.png */,
+				D33449E32296958A009592F5 /* 箭头@3x.png */,
+				D33449E42296958A009592F5 /* 遮罩@3x.png */,
+				D33449E822969595009592F5 /* 上拉菜单@3x.png */,
+				D33449E722969595009592F5 /* 下拉菜单@3x.png */,
+				D33449D822969564009592F5 /* pause@3x.png */,
+				D33449D722969564009592F5 /* play@3x.png */,
+				D33449ED229695AB009592F5 /* 分享按钮@3x.png */,
+				D3FD54D4229FA9C20079FE35 /* next@3x.png */,
+				D386547D22B743620078B2DB /* 机票水印@3x.png */,
+				D33449EC229695AB009592F5 /* 下载按钮@3x.png */,
+			);
+			path = arImageResouse;
+			sourceTree = "<group>";
+		};
+		D37793A922A10DAF0054CD79 /* load */ = {
+			isa = PBXGroup;
+			children = (
+				D37793B022A10E290054CD79 /* libSSZip */,
+				D37793AB22A10DDF0054CD79 /* GSDownloader.h */,
+				D37793AC22A10DE50054CD79 /* GSDownloader.m */,
+				D37793AA22A10DDA0054CD79 /* GSDownloadManager.h */,
+				D37793AD22A10DEB0054CD79 /* GSDownloadManager.m */,
+			);
+			path = load;
+			sourceTree = "<group>";
+		};
+		D37793B022A10E290054CD79 /* libSSZip */ = {
+			isa = PBXGroup;
+			children = (
+				D37793B122A10E290054CD79 /* libSSZip.a */,
+				D37793B222A10E290054CD79 /* SSZipArchive */,
+			);
+			path = libSSZip;
+			sourceTree = "<group>";
+		};
+		D37793B222A10E290054CD79 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				D37793B322A10E290054CD79 /* prng.h */,
+				D37793B422A10E290054CD79 /* aestab.h */,
+				D37793B522A10E290054CD79 /* unzip.c */,
+				D37793B622A10E290054CD79 /* pwd2key.h */,
+				D37793B722A10E290054CD79 /* zip.c */,
+				D37793B822A10E290054CD79 /* ioapi.c */,
+				D37793B922A10E290054CD79 /* aesopt.h */,
+				D37793BA22A10E290054CD79 /* aes_via_ace.h */,
+				D37793BB22A10E290054CD79 /* brg_types.h */,
+				D37793BC22A10E290054CD79 /* SSZipArchive.h */,
+				D37793BD22A10E290054CD79 /* entropy.h */,
+				D37793BE22A10E290054CD79 /* crypt.h */,
+				D37793BF22A10E290054CD79 /* hmac.h */,
+				D37793C022A10E290054CD79 /* brg_endian.h */,
+				D37793C122A10E290054CD79 /* aes.h */,
+				D37793C222A10E290054CD79 /* zip.h */,
+				D37793C322A10E290054CD79 /* unzip.h */,
+				D37793C422A10E290054CD79 /* SSZipCommon.h */,
+				D37793C522A10E290054CD79 /* sha1.h */,
+				D37793C622A10E290054CD79 /* fileenc.h */,
+				D37793C722A10E290054CD79 /* ioapi.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		D37FC23822ADF8BB0088C8DE /* Fontfiles */ = {
+			isa = PBXGroup;
+			children = (
+				D37FC24622ADF8D20088C8DE /* Montserrat-Black-2.otf */,
+				D37FC23F22ADF8D10088C8DE /* Montserrat-Bold-3.otf */,
+				D37FC24922ADF8D20088C8DE /* Montserrat-ExtraBold-4.otf */,
+				D37FC23B22ADF8D10088C8DE /* Montserrat-ExtraLight-5.otf */,
+				D37FC23D22ADF8D10088C8DE /* Montserrat-Light-6.otf */,
+				D37FC24422ADF8D20088C8DE /* Montserrat-Medium-7.otf */,
+				D37FC24822ADF8D20088C8DE /* Montserrat-Regular-8.otf */,
+				D37FC24022ADF8D10088C8DE /* Montserrat-SemiBold-9.otf */,
+				D37FC24A22ADF8D20088C8DE /* Montserrat-Thin-10.otf */,
+				D37FC23922ADF8D10088C8DE /* MontserratAlternates-Black-11.otf */,
+				D37FC24222ADF8D20088C8DE /* MontserratAlternates-Bold-12.otf */,
+				D37FC24722ADF8D20088C8DE /* MontserratAlternates-ExtraBold-13.otf */,
+				D37FC23E22ADF8D10088C8DE /* MontserratAlternates-ExtraLight-14.otf */,
+				D37FC24122ADF8D20088C8DE /* MontserratAlternates-Light-15.otf */,
+				D37FC24522ADF8D20088C8DE /* MontserratAlternates-Medium-16.otf */,
+				D37FC23C22ADF8D10088C8DE /* MontserratAlternates-Regular-17.otf */,
+				D37FC23A22ADF8D10088C8DE /* MontserratAlternates-SemiBold-18.otf */,
+				D37FC24322ADF8D20088C8DE /* MontserratAlternates-Thin-19.otf */,
+			);
+			path = Fontfiles;
+			sourceTree = "<group>";
+		};
+		D3D31095228C0AE200132EA9 = {
+			isa = PBXGroup;
+			children = (
+				D3D310B7228C0B4300132EA9 /* ARKit */,
+				D3D310A0228C0AE200132EA9 /* CGTN */,
+				D3D3109F228C0AE200132EA9 /* Products */,
+				D3D310BE228CF51B00132EA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D3109F228C0AE200132EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D3109E228C0AE200132EA9 /* CGTN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D310A0228C0AE200132EA9 /* CGTN */ = {
+			isa = PBXGroup;
+			children = (
+				D3D310A1228C0AE200132EA9 /* AppDelegate.h */,
+				D3D310A2228C0AE200132EA9 /* AppDelegate.m */,
+				D3D310A4228C0AE200132EA9 /* ViewController.h */,
+				D3D310A5228C0AE200132EA9 /* ViewController.m */,
+				D3D310A7228C0AE200132EA9 /* Main.storyboard */,
+				D3D310AA228C0AE300132EA9 /* Assets.xcassets */,
+				D3D310AC228C0AE300132EA9 /* LaunchScreen.storyboard */,
+				D3D310AF228C0AE300132EA9 /* Info.plist */,
+				D3D310B0228C0AE300132EA9 /* main.m */,
+			);
+			path = CGTN;
+			sourceTree = "<group>";
+		};
+		D3D310B7228C0B4300132EA9 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE805E22C0BB3900598BF6 /* ARModel.scnassets */,
+				D37FC23822ADF8BB0088C8DE /* Fontfiles */,
+				D318210E22A64A5000BAD4DE /* arImageResouse */,
+				D353D6AA2295305500C3E6AA /* TJDefine.h */,
+				D3D310BB228CF4E800132EA9 /* ARkitViewController.h */,
+				D3D310BC228CF4E800132EA9 /* ARkitViewController.m */,
+				D3FD54D9229FCF790079FE35 /* ARWebView.h */,
+				D3FD54DA229FCF790079FE35 /* ARWebView.m */,
+				D37793A922A10DAF0054CD79 /* load */,
+				D302D8272293F82B00165D75 /* Views */,
+				D302D8192293EF5800165D75 /* TJAVPlayer */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		D3D310BE228CF51B00132EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D310C1228CF53300132EA9 /* SceneKit.framework */,
+				D3D310BF228CF51B00132EA9 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D3109D228C0AE200132EA9 /* CGTN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D310B4228C0AE300132EA9 /* Build configuration list for PBXNativeTarget "CGTN" */;
+			buildPhases = (
+				D3D3109A228C0AE200132EA9 /* Sources */,
+				D3D3109B228C0AE200132EA9 /* Frameworks */,
+				D3D3109C228C0AE200132EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGTN;
+			productName = CGTN;
+			productReference = D3D3109E228C0AE200132EA9 /* CGTN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D31096228C0AE200132EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = YangTengJiao;
+				TargetAttributes = {
+					D3D3109D228C0AE200132EA9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D3D31099228C0AE200132EA9 /* Build configuration list for PBXProject "CGTN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D31095228C0AE200132EA9;
+			productRefGroup = D3D3109F228C0AE200132EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D3109D228C0AE200132EA9 /* CGTN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D3109C228C0AE200132EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33449DA22969564009592F5 /* pause@3x.png in Resources */,
+				D37FC25A22ADF8D20088C8DE /* Montserrat-Regular-8.otf in Resources */,
+				D37FC24B22ADF8D20088C8DE /* MontserratAlternates-Black-11.otf in Resources */,
+				D37FC24D22ADF8D20088C8DE /* Montserrat-ExtraLight-5.otf in Resources */,
+				D3A0AB8E22BB28BF006C78EF /* 数据入口-按钮-高亮@3x.png in Resources */,
+				D318211622A67FD300BAD4DE /* 小飞机@3x.png in Resources */,
+				D3D310AE228C0AE300132EA9 /* LaunchScreen.storyboard in Resources */,
+				D3CB875222BCD85700166FC7 /* Group@3x.png in Resources */,
+				D3CB875322BCD85700166FC7 /* CGTN_LOGO_RGB@3x.png in Resources */,
+				D37FC25122ADF8D20088C8DE /* Montserrat-Bold-3.otf in Resources */,
+				D37FC25322ADF8D20088C8DE /* MontserratAlternates-Light-15.otf in Resources */,
+				D33449F0229695AB009592F5 /* 分享按钮@3x.png in Resources */,
+				D3B265D722AFAE12006478D5 /* 分享@3x.png in Resources */,
+				D37FC25922ADF8D20088C8DE /* MontserratAlternates-ExtraBold-13.otf in Resources */,
+				D37FC24C22ADF8D20088C8DE /* MontserratAlternates-SemiBold-18.otf in Resources */,
+				D3FD54D5229FA9C20079FE35 /* next@3x.png in Resources */,
+				D37FC25422ADF8D20088C8DE /* MontserratAlternates-Bold-12.otf in Resources */,
+				D3AFE5A922A4A9B60052035A /* 返回@3x.png in Resources */,
+				D3CB875522BCDE8300166FC7 /* UNNETTEXT@3x.png in Resources */,
+				D33449EF229695AB009592F5 /* 下载按钮@3x.png in Resources */,
+				D37FC25722ADF8D20088C8DE /* MontserratAlternates-Medium-16.otf in Resources */,
+				D33449E922969595009592F5 /* 下拉菜单@3x.png in Resources */,
+				D37FC25B22ADF8D20088C8DE /* Montserrat-ExtraBold-4.otf in Resources */,
+				D3A0AB9522BB327F006C78EF /* 高亮光晕@3x.png in Resources */,
+				D37FC24E22ADF8D20088C8DE /* MontserratAlternates-Regular-17.otf in Resources */,
+				D37082B022B9E247003FCBC3 /* 遮罩-下@3x.png in Resources */,
+				D3A0AB8F22BB28BF006C78EF /* 专访视频入口-按钮-高亮@3x.png in Resources */,
+				D360699722A7B418002BFB80 /* 专访视频入口-按钮@3x.png in Resources */,
+				D33449D922969564009592F5 /* play@3x.png in Resources */,
+				D3D310AB228C0AE300132EA9 /* Assets.xcassets in Resources */,
+				D37082B122B9E247003FCBC3 /* 遮罩-上@3x.png in Resources */,
+				D360699822A7B418002BFB80 /* 数据入口-按钮@3x.png in Resources */,
+				D33449E52296958A009592F5 /* 箭头@3x.png in Resources */,
+				D360699322A7B400002BFB80 /* 声音按钮-关闭@3x.png in Resources */,
+				D37FC25C22ADF8D20088C8DE /* Montserrat-Thin-10.otf in Resources */,
+				D33449D2229694B8009592F5 /* 进度条-渐变@3x.png in Resources */,
+				D3D310A9228C0AE200132EA9 /* Main.storyboard in Resources */,
+				D33449E62296958A009592F5 /* 遮罩@3x.png in Resources */,
+				D37FC25622ADF8D20088C8DE /* Montserrat-Medium-7.otf in Resources */,
+				D37FC25022ADF8D20088C8DE /* MontserratAlternates-ExtraLight-14.otf in Resources */,
+				D360699422A7B400002BFB80 /* 声音按钮-开启@3x.png in Resources */,
+				D33449D4229694C0009592F5 /* ar@3x.png in Resources */,
+				D386547E22B743620078B2DB /* 机票水印@3x.png in Resources */,
+				D33449EA22969595009592F5 /* 上拉菜单@3x.png in Resources */,
+				D37FC25222ADF8D20088C8DE /* Montserrat-SemiBold-9.otf in Resources */,
+				D37FC25522ADF8D20088C8DE /* MontserratAlternates-Thin-19.otf in Resources */,
+				D37FC24F22ADF8D20088C8DE /* Montserrat-Light-6.otf in Resources */,
+				D3DE805F22C0BB3900598BF6 /* ARModel.scnassets in Resources */,
+				D33449E222969577009592F5 /* 拍摄按钮@3x.png in Resources */,
+				D37FC25822ADF8D20088C8DE /* Montserrat-Black-2.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D3109A228C0AE200132EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FD54BC229CCDE20079FE35 /* ARWatermarkView.m in Sources */,
+				D360699B22A8EC0F002BFB80 /* ARAboutView.m in Sources */,
+				D3D310A6228C0AE200132EA9 /* ViewController.m in Sources */,
+				D3FD54BF229D0DD60079FE35 /* ARWatermarkTableViewCell.m in Sources */,
+				D3C8B5A3229B7E9D006039C3 /* ARAudioPlayerView.m in Sources */,
+				D3C8B5A6229BBD2A006039C3 /* ARScanBottomView.m in Sources */,
+				D3D310B1228C0AE300132EA9 /* main.m in Sources */,
+				D3D310BD228CF4E800132EA9 /* ARkitViewController.m in Sources */,
+				D3D310A3228C0AE200132EA9 /* AppDelegate.m in Sources */,
+				D37F425922B336B800D8AB2A /* ARAirportLabelView.m in Sources */,
+				D33449CE22967259009592F5 /* ARScanPromptView.m in Sources */,
+				D33449C922962FB7009592F5 /* ARFunctionTips.m in Sources */,
+				D32B431522C4CE4A006B9C6C /* ARCheckVIew.m in Sources */,
+				D3F1927122BCD66B004C0D1A /* ARNetErrorView.m in Sources */,
+				D3FD54D8229FB9AE0079FE35 /* ARPanoramaballTips.m in Sources */,
+				D386548122B7852D0078B2DB /* ARToastView.m in Sources */,
+				D37793CB22A10E290054CD79 /* ioapi.c in Sources */,
+				D37793CA22A10E290054CD79 /* zip.c in Sources */,
+				D37793AF22A10DEB0054CD79 /* GSDownloadManager.m in Sources */,
+				D302D82A2293F86300165D75 /* ARFirstLoadView.m in Sources */,
+				D3FD54CA229D37150079FE35 /* ARWaterMark.m in Sources */,
+				D3FD54D3229FA7B50079FE35 /* ARLabelSelectView.m in Sources */,
+				D37793C922A10E290054CD79 /* unzip.c in Sources */,
+				D302D8262293EF5800165D75 /* TJAVPlayerControlView.m in Sources */,
+				D302D8252293EF5800165D75 /* TJAVplayerView.m in Sources */,
+				D3FD54DB229FCF790079FE35 /* ARWebView.m in Sources */,
+				D37793AE22A10DEB0054CD79 /* GSDownloader.m in Sources */,
+				D3FD54CD229E88980079FE35 /* ARScanBottomPromptView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3D310A7228C0AE200132EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D310A8228C0AE200132EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D310AC228C0AE300132EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D310AD228C0AE300132EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3D310B2228C0AE300132EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3D310B3228C0AE300132EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D310B5228C0AE300132EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RWU88ZCQF2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CGTN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARKit/load/libSSZip",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YTJ.CGTN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Yangtengjiao;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D310B6228C0AE300132EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RWU88ZCQF2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CGTN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARKit/load/libSSZip",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YTJ.CGTN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Yangtengjiao dis";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D31099228C0AE200132EA9 /* Build configuration list for PBXProject "CGTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D310B2228C0AE300132EA9 /* Debug */,
+				D3D310B3228C0AE300132EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D310B4228C0AE300132EA9 /* Build configuration list for PBXNativeTarget "CGTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D310B5228C0AE300132EA9 /* Debug */,
+				D3D310B6228C0AE300132EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D31096228C0AE200132EA9 /* Project object */;
+}
